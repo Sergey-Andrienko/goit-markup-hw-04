@@ -165,6 +165,11 @@ p {
 /* hero */
 .section-bg-color {
   background-color: var(--color-main-section);
+  background-image: url(../images/hero/people-office.jpg);
+  background-color: rgba(46, 47, 66, 0.7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 188px 0;
 }
 
