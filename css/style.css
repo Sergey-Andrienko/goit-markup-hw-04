@@ -164,13 +164,16 @@ p {
 }
 /* hero */
 .section-bg-color {
-  background-color: var(--color-main-section);
-  background-image: url(../images/hero/people-office.jpg);
-  background-color: rgba(46, 47, 66, 0.7);
+  max-width: 1440px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+      url(../images/hero/people-office.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 188px 0;
+  margin: 0 auto;
 }
 
 .hero-title-style {
@@ -276,7 +279,7 @@ p {
 
 .section-our {
   padding: 120px 0;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .title-section {
@@ -380,7 +383,6 @@ p {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-
 }
 
 .portfolio-list-item {
