@@ -354,6 +354,7 @@ p {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-desc-proff);
+  padding-bottom: 8px;
 }
 
 .desc-proffecion-icon {
@@ -386,6 +387,7 @@ p {
 .desc-proffecion-social {
   height: 40px;
   width: 40px;
+  fill: #f4f4fd;
 }
 /* section1 portfolio */
 
