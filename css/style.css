@@ -389,6 +389,52 @@ p {
   width: 40px;
   fill: #f4f4fd;
 }
+
+.customers {
+  padding: 120px 0;
+}
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.customers-item {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-list {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.customers-list-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+}
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+  color: #404bbf;
+  border-color: #404bbf;
+}
+
+.customers {
+  fill: currentColor;
+}
+
 /* section1 portfolio */
 
 .portfolio {
