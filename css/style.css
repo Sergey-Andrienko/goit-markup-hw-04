@@ -407,12 +407,11 @@ p {
 
 .customers-item {
   display: flex;
+  padding-left: 0;
   gap: 24px;
 }
 
 .customers-list {
-  margin: 0;
-  padding: 0;
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
