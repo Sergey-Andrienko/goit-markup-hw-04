@@ -387,6 +387,9 @@ p {
 .desc-proffecion-social {
   height: 40px;
   width: 40px;
+}
+
+.desc-proffecion-svg {
   fill: #f4f4fd;
 }
 
@@ -436,6 +439,7 @@ p {
 .customers-svg {
   fill: currentColor;
 }
+
 
 /* section1 portfolio */
 
